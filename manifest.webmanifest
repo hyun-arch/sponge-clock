@@ -1,0 +1,17 @@
+{
+  "name": "Sponge Clock — Presentation Timer",
+  "short_name": "Sponge Clock",
+  "description": "발표용 타이머. 항상 위에 뜨는 미니 타이머, 전체화면 발표 모드, 오프라인 지원.",
+  "start_url": "timer.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#06070d",
+  "theme_color": "#06070d",
+  "lang": "ko",
+  "icons": [
+    { "src": "icons/icon192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

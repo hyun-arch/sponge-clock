@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Sponge Clock — Presentation Timer",
+  "version": "1.1.0",
+  "description": "긴급 발표용 타이머. 항상 위에 뜨는 미니 플로팅 창, 전체화면 발표 모드, 팝업 컨트롤, 자동 실행.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sponge Clock"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "alarms", "system.display", "notifications"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

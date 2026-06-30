@@ -1,0 +1,9 @@
+# Generated docs / decks (delivered separately, not part of the web app)
+*.pptx
+*.docx
+*.pdf
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+.claude/
