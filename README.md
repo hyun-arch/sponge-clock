@@ -2,6 +2,8 @@
 
 긴급 발표에서 **3초 안에 시간 세팅 → 시작**. 그리고 **다른 창을 띄워도 화면 맨 앞에 계속 떠 있는** 미니 타이머.
 
+**▶ 바로 열기 (어느 기기에서나):** https://hyun-arch.github.io/sponge-clock/
+
 ## 설치 방법 (개발자 모드 로드)
 
 1. Chrome 주소창에 `chrome://extensions` 입력

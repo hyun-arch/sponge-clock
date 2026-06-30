@@ -34,4 +34,4 @@ Sponge Clock — 발표용 타이머. **Chrome 확장**과 **독립 웹앱/PWA**
 ## 함정/메모
 - PWA 캐시 stale 문제(위 "로컬 테스트 주의").
 - Document PiP·Wake Lock은 최신 Chromium + `https`/`localhost`에서 가장 잘 동작. `file://`은 타이머 자체만 동작.
-- 이 저장소는 git 저장소가 아니다(현재).
+- 배포: GitHub `hyun-arch/sponge-clock` → GitHub Pages **https://hyun-arch.github.io/sponge-clock/** (main 브랜치 루트). `.gitignore`로 `*.pptx/*.docx/*.pdf`·`.claude/` 제외. 코드 변경 후 `git push`하면 1분 내 Pages 자동 재배포(필요 시 `sw.js` `CACHE` 버전업).
